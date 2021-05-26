@@ -94,8 +94,8 @@
 						<td class="text-center">Rp. <?php echo number_format($row->total) ?></td>
 						<td class="text-center">
 						<?php if($date->format('Y-m-d') == date('Y-m-d')) : ?>
-							<a href="<?php echo base_url("transaksi/print_transaction/{$row->ID_transaction}") ?>" target="_blank" class="btn btn-xs btn-default btn-print"><i class="fa fa-print"></i></a>
-							<a href="<?php echo base_url("data_transaksi/update/{$row->ID_transaction}") ?>" class="btn btn-xs btn-primary"><i class="fa fa-wrench"></i></a>
+							<a href="<?php echo base_url("index.php/transaksi/print_transaction/{$row->ID_transaction}") ?>" target="_blank" class="btn btn-xs btn-default btn-print"><i class="fa fa-print"></i></a>
+							<a href="<?php echo base_url("index.php/data_transaksi/update/{$row->ID_transaction}") ?>" class="btn btn-xs btn-primary"><i class="fa fa-wrench"></i></a>
 							<button type="button" data-id="<?php echo $row->ID_transaction ?>" class="btn btn-xs btn-danger delete-transaksi"><i class="fa fa-trash-o"></i></button>
 						<?php endif; ?>
 						</td>

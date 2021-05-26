@@ -45,8 +45,8 @@
           <div class="col-md-5">
             <img src="<?php echo base_url('assets/logo.png'); ?>" class="img-logo pull-left">
             <div class="app-info">
-              <div class="store-name zillap-nitro">EPOS</div>
-              <div class="store-street"><i>Sistem Kasir Kedai Argyta</i></div>
+              <div class="store-name zillap-nitro">DgTiro</div>
+              <div class="store-street"><i>Sistem Kasir Dg Tiro</i></div>
             </div>
           </div>
           <div class="navbar-custom-menu">

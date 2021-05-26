@@ -38,7 +38,7 @@
 						<th width="9%">Jumlah</th>
 						<th width="10%">Satuan</th>
 						<th width="15%">Harga</th>
-						<th width="16%">Total</th> 
+						<th width="16%">Total</th>
 						<th width="5%">Ubah</th>         
 					</tr>
 				</thead>

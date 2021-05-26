@@ -314,7 +314,7 @@ class Data_transaksi extends Admin_panel
 	public function cetaklaporan()
 	{
 		$data = array(
-			'title' => 'Cetak Laporan Transaksi', 
+			'title' => 'Cetak Laporan', 
 			'transaksi' =>  $this->mtransaction->getallByUser($this->input->get('from'), $this->input->get('to'), $this->input->get('kasir'),'result')
 		);
 

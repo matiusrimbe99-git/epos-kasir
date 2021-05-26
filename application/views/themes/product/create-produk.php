@@ -2,7 +2,7 @@
 	<div class="col-md-6 col-md-offset-3 col-xs-12"><?php echo $this->session->flashdata('alert'); ?></div>
 	<div class="col-md-12 bottom2x">
 		<div class="col-md-4">
-			<a href="<?php echo base_url("product") ?>" class="btn btn-default"><i class="fa fa-arrow-left"></i> Kembali</a>
+			<a href="<?php echo base_url("index.php/product") ?>" class="btn btn-default"><i class="fa fa-arrow-left"></i> Kembali</a>
 		</div>
 	</div>
 	<?php echo form_open(current_url()); ?>

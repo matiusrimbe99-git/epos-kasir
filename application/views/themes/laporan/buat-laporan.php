@@ -50,7 +50,7 @@
 		 <div class="col-md-4">
 			<button type="submit" class="btn btn-primary top"><i class="fa fa-search"></i> Filter</button>
 			<?php if($this->input->get('from') != '') : ?>
-			<a href="<?php echo base_url("data_transaksi/cetaklaporan?from={$this->input->get('from')}&to={$this->input->get('to')}&kasir={$this->input->get('kasir')}") ?>" class="btn btn-primary top" target="_blank"><i class="fa fa-print"></i> Cetak Laporan</a>
+			<a href="<?php echo base_url("index.php/data_transaksi/cetaklaporan?from={$this->input->get('from')}&to={$this->input->get('to')}&kasir={$this->input->get('kasir')}") ?>" class="btn btn-primary top" target="_blank"><i class="fa fa-print"></i> Cetak Laporan</a>
 			<?php endif; ?>
 			<a href="<?php echo site_url('data_transaksi/report') ?>" class="btn btn-default top left"><i class="fa fa-times"></i> Reset</a>
 		 </div>

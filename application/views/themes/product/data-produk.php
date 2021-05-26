@@ -4,7 +4,7 @@
 	<div class="col-md-12 bottom2x">
 		<div class="col-md-2">
 			<?php if($this->ion_auth->in_group(array(1))) : ?>
-			<a href="<?php echo base_url("product/create"); ?>" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah Data Produk</a>
+			<a href="<?php echo base_url("index.php/product/create"); ?>" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah Data Produk</a>
 			<?php endif; ?>
 		</div>
 		<div class="col-md-4 pull-right">
